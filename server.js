@@ -53,8 +53,7 @@ app.get("/", (req, res) => {
   res.send("Hello World!")
 })
 
-//___________________
-//Listener
+// PORT LISTENER
 //___________________
 app.listen(PORT, () => console.log("express is listening on:", PORT))
 
